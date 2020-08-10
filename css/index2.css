@@ -1,0 +1,217 @@
+a.forwarding {
+  border: solid 2px black;
+  padding: 10px;
+  text-decoration: blink;
+  background-color: floralwhite;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+.dekorasiInputNama {
+  text-transform: capitalize;
+  color: red;
+  font-family: cursive;
+}
+
+.dekorasiInputPerusahaan {
+  text-transform: uppercase;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  background-color: #00a2c6;
+  padding: 5px;
+  font-family: 'Architects Daughter', cursive;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: steelblue;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#00c65840), to(#eb00b814));
+  background: linear-gradient(to right, #00c65840, #eb00b814);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 4;
+      -ms-flex-positive: 4;
+          flex-grow: 4;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #00a2c6;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+  width: -webkit-fill-available;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 60px 60px 0 60px;
+  background: -webkit-gradient(linear, left top, right top, from(#c60000), to(#00c658));
+  background: linear-gradient(to right, #c60000, #00c658);
+  text-align: right;
+  color: white;
+  text-align: -webkit-center;
+}
+
+p {
+  color: #666666;
+}
+
+h2 #comments {
+  text-align: center;
+  font-size: xxx-large;
+  text-transform: inherit;
+}
+
+button .info {
+  border: none;
+  width: auto;
+  padding: 15px;
+  background-color: hotpink;
+  color: ghostwhite;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: unset;
+  cursor: pointer;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 900;
+  text-decoration: none;
+  color: white;
+  border: solid;
+  padding: 19px;
+}
+
+nav a:hover {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  border: solid;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 0px;
+}
+
+input #nama, input #perusahaan {
+  font-size: 40px;
+  background: transparent;
+  border: none;
+  color: white;
+  width: 100%;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  text-align: center;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+img #sertifikat {
+  -o-object-position: center;
+     object-position: center;
+  padding-bottom: 20px;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+}
+
+.profile img {
+  width: 100%;
+  max-height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.profile header {
+  text-align: center;
+}
+
+#myname {
+  color: blue;
+}
+
+.card {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.jumbotron img {
+  width: 275px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  image-orientation: unset;
+  vertical-align: bottom;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+}
+
+.clear {
+  clear: both;
+}
+/*# sourceMappingURL=index2.css.map */

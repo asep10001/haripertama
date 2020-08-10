@@ -1,0 +1,94 @@
+a.forwarding {
+  border: solid 2px black;
+  padding: 10px;
+  text-decoration: blink;
+  background-color: floralwhite;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+.dekorasiInputNama {
+  text-transform: capitalize;
+  color: red;
+  font-family: cursive;
+}
+
+.dekorasiInputPerusahaan {
+  text-transform: uppercase;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  background-color: #00a2c6;
+  padding: 5px;
+  font-family: 'Architects Daughter', cursive;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: steelblue;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#00c65840), to(#eb00b814));
+  background: linear-gradient(to right, #00c65840, #eb00b814);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 4;
+      -ms-flex-positive: 4;
+          flex-grow: 4;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #00a2c6;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+  width: -webkit-fill-available;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 60px 60px 0 60px;
+  background: -webkit-gradient(linear, left top, right top, from(#c60000), to(#00c658));
+  background: linear-gradient(to right, #c60000, #00c658);
+  text-align: right;
+  color: white;
+  text-align: -webkit-center;
+}
+
+p {
+  color: #666666;
+}
+/*# sourceMappingURL=basic.css.map */
